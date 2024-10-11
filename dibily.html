@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Drone Site</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif; /* Устанавливает шрифт Roboto */
+            font-size: 20px; /* Размер шрифта */
+            line-height: 1.5; /* Высота строки для улучшения читаемости */
+            margin: 0; /* Убирает отступы по умолчанию */
+            padding: 0; /* Убирает внутренние отступы по умолчанию */
+            background-color: #ebebeb; /* Устанавливает цвет фона страницы */
+        }
+
+        .navbar {
+            background-color: #252525; /* Цвет фона меню */
+            overflow: hidden; /* Скрытие переполняющего содержимого */
+        }
+
+        .navbar ul {
+            list-style-type: none; /* Убирает маркеры у списка */
+            margin: 0; /* Убирает отступы */
+            padding: 0; /* Убирает внутренние отступы */
+        }
+
+        .navbar li {
+            float: left; /* Расположение элементов в строку */
+        }
+
+        .navbar a {
+            display: block; /* Делает ссылки блочными элементами */
+            color: white; /* Цвет текста ссылок */
+            text-align: center; /* Центрирование текста */
+            padding: 14px 16px; /* Отступы вокруг текста */
+            text-decoration: none; /* Убирает подчеркивание */
+        }
+
+        .navbar a:hover {
+            background-color: #ddd; /* Цвет фона при наведении */
+            color: black; /* Цвет текста при наведении */
+        }
+
+        .hero-section {
+            text-align: center; /* Центрирование содержимого секции */
+            margin: 20px; /* Отступы вокруг секции */
+        }
+
+        .hero-video {
+            width: 80%; /* Установите нужную ширину видео */
+            height: auto; /* Высота будет автоматически подстраиваться */
+            border-radius: 15px; /* Скругление углов видео */
+            overflow: hidden; /* Скрытие переполняющего содержимого */
+            display: block; /* Убирает пробелы под видео */
+            margin: 0 auto; /* Центрирование видео */
+        }
+
+        .caption {
+            text-align: center; /* Центрирование текста под видео */
+            margin-top: 10px; /* Отступ сверху для текста */
+            font-size: 24px; /* Увеличенный размер шрифта для подписи */
+            font-weight: bold; /* Жирный шрифт */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Commercial</a></li>
+            <li><a href="Resedential.html">Residential</a></li>
+            <li><a href="Construction.html">Cunstruction</a></li>
+            <li><a href="Agriculture.html">Agriculture</a></li>
+            <li><a href="Events.html">Events</a></li>
+            <li><a href="Other.html">Other</a></li>
+        </ul>
+    </nav>
+
+    
+    <div class="hero-section">
+        <video class="hero-video" autoplay loop muted playsinline>
+            <source src="ochko gorrily.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="caption">
+            Drone flying around a house<br>
+            <small>Private property shooting</small>
+        </div>
+
+        <div class="hero-section">
+            <video class="hero-video" autoplay loop muted playsinline>
+                <source src="OBSHYAK+++ - Made with Clipchamp.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="caption">
+                Drone flying around a house<br>
+                <small>Private property shooting</small>
+            </div>
+    </div>
+</body>
+</html>
